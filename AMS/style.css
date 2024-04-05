@@ -1,0 +1,66 @@
+body{
+   
+    background-color: rgb(199, 241, 241);
+    text-align: justify;
+    mix-blend-mode: darken;
+}
+
+image{
+    width: 25%;
+    height: 20%;
+    
+}
+
+h1{
+    color: green;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h3{
+    color: green;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+div{
+    
+    width: fit-content;
+    padding: 40px;
+    text-size-adjust: italic;
+
+    text-align: center;
+}
+image{
+    text-align: left;
+    image-rendering: pixelated;
+}
+.forms{
+    width: 50%;
+    height: 30vh;
+    padding: 20px;
+}
+
+.medicines .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1frf));
+    gap: 2rem;
+}
+
+.medicines .box-container .box{
+    text-align: center;
+    background: white;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+.medicines .box-container .box .img{
+    height: 20rem;
+    border: var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
